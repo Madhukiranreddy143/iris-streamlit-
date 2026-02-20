@@ -8,6 +8,7 @@ x = data.data
 y = data.target
 model.fit(x,y) 
 st.header("Iris Flower classification")
+st.write('Created by madhu')
 sl = st.number_input("Enter Sepal Length")
 sw = st.number_input("Enter Sepal width")
 pl = st.number_input("Enter petal Length")
